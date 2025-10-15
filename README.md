@@ -31,7 +31,7 @@ A beautiful, modern word-guessing game built with vanilla JavaScript. Challenge 
 
 ## 🚀 Demo
 
-Try it live: [Word Masters Game](word-masters.aylingurel.me) 
+Try it live: [Word Masters Game](https://word-masters.aylingurel.me) 
 
 ## 📸 Screenshots
 
