@@ -1,0 +1,24 @@
+{
+  "name": "master-words",
+  "version": "1.0.0",
+  "description": "A Word Masters game - Wordle clone",
+  "main": "app.js",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "start": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static files'",
+    "serve": "live-server --port=8080 --open=/index.html"
+  },
+  "keywords": [
+    "word-game",
+    "wordle",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

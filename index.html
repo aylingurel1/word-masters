@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Masters - Guess the Word</title>
+    <meta
+      name="description"
+      content="Play Word Masters - A modern word guessing game"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <div class="brand">🎯 WORD MASTERS</div>
+    <p class="subtitle">Guess the 5-letter word in 6 tries</p>
+    <hr />
+
+    <div class="grid-container">
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+    </div>
+
+    <div class="loader"></div>
+
+    <div class="modal-overlay"></div>
+    <div class="modal">
+      <h2 id="modal-title">🎉 You Win!</h2>
+      <p id="modal-message">The word was <strong id="modal-word"></strong></p>
+      <button onclick="location.reload()">Play Again</button>
+    </div>
+  </body>
+</html>
